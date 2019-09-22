@@ -6,9 +6,36 @@
     align-items: center;
 }
 
+.sa-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
 
 .range {
     width: 100px;
+    margin-right: 20px;
+}
+
+
+.method {
+    background-color: #1770B2;
+    height: 100%;
+    width: 120px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0;
+}
+
+.method:hover {
+    cursor: pointer;;
+}
+
+.method-selected {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
 }
 
 .sort {
@@ -26,6 +53,6 @@
     transform: scale(0.90);
 }
 
-.sort:focus {
+button:focus {
     outline: none;
 }
